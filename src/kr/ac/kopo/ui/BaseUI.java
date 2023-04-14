@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import kr.ac.kopo.dao.BoardDAO;
 
+//이름은 UI이지만 추상 클래스...
 public abstract class BaseUI implements IBoardUI {
 	
 //	private String str; //같은 느낌으로

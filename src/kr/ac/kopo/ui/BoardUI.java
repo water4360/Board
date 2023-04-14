@@ -4,8 +4,16 @@ import java.util.Scanner;
 
 public class BoardUI extends BaseUI {
 	
+	//게시글 하나를 볼 수 있기위해 객체화 해봅시다
+	//그럼 그 게시글을 클래스로 정의할 수 있지 않을까?
+	//제목, 작성자, 내용 등!
+	//BoardDTO, BoardVO = 정보를 저장하는 단위(?)
+	//DTO = Data Terminal Object 
+	//VO = Value Object
+	//UI는 진짜 딱 안내 메세지만 보여주는 그런거야.
+			
 	
-	
+		
 	private int menu() {
 		System.out.println("*** 게시판 관리 프로그램 ***");
 		System.out.println("1. 전체게시글 조회");
@@ -33,7 +41,6 @@ public class BoardUI extends BaseUI {
 			
 			switch(type) {
 			case 1 :
-//				AddUI add = new AddUI();
 				System.out.println("전체게시글 조회 선택");
 				break;
 			case 2 : 
