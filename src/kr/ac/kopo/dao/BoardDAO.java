@@ -18,5 +18,10 @@ public class BoardDAO {
 		boardList.add(board);
 	}
 	
+	//반환타입이 BoardVO List인거고
+	public List<BoardVO> selectAllBoard() {
+		return boardList;
+		
+	}
 
 }

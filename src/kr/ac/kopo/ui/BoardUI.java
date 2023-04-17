@@ -41,14 +41,15 @@ public class BoardUI extends BaseUI {
 			
 			switch(type) {
 			case 1 :
-				System.out.println("전체게시글 조회 선택");
+				System.out.println(">> 전체게시글 조회 선택");
+				ui = new SearchAllUI();
 				break;
 			case 2 : 
-				System.out.println("글번호 조회 선택");
+				System.out.println(">> 글번호 조회 선택");
 				ui = new SearchOneUI();
 				break;
 			case 3 :
-				System.out.println("글등록 선택");
+				System.out.println(">> 글등록 선택");
 //				AddUI add = new AddUI();
 //				add.execute();
 //				new AddUI().execute(); //이렇게 줄일 수도.
